@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="Mini Photographer"
+        content="Looking for a Petite Photographer, i make images last longer that what you can remember.">
+    <meta name="keywords" content="Exciting, Energized, Out of this world, Bubbly, talkative">
+    <meta name="author" content="Rukea Petersen">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Petite Photography</title>
+
+    <!-- CSS Style Sheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mq.css">
+
+    <!-- Google Fonts -->
+    <link rel="reconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Prompt:wght@200&display=swap"
+        rel="stylesheet">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1331BBR2YD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1331BBR2YD');
+    </script>
+</head>
+
+<body>
+
+
+    <div>
+        <div>
+            <h1><a href="index.html" id="heading">Petite Photography</h1></a>
+            <div class="about-nav">
+                <ul>
+                    <button onclick="location.href='creativeStudio.html'" type="button">
+                      Creative Studio</button>
+                      <button onclick="location.href='about.html'" type="button">
+                        About</button>
+                  <button onclick="location.href='contact.html'" type="button">
+                    Contact</button>
+                </ul>
+                </button>
+                <br>
+
+
+    </div>
+
+
+
+    <div id="main-wrapper">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/home/mountain copy.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/home/muizenberg.jpg" style="width:100%">
+                <div class="text2"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="images/home/chimpanzee.jpg" style="width:100%">
+                <div class="text3"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="images/home/bicycle.jpg" style="width:100%">
+                <div class="text4"></div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <div class="main-wrapper">
+            <p>Cape Town is a port city on South Africa’s southwest coast, on a peninsula beneath the imposing Table
+                Mountain</p>
+            <br>
+
+            <p>Slowly rotating cable cars climb to the mountain’s flat top, from which there are sweeping views of the
+                city, the busy harbor and boats heading for Robben Island, the notorious prison that once held Nelson
+                Mandela, which is now a living museum.</p>
+            <br>
+
+            <p>The Cape is a cultural mix of Dutch, French, Malay, English, Afrikaner and Xhosa lifestyles. All sharing
+                the treasures of the Cape to the enjoyment of all. Experience the Bo-Kaap with a history that dates back
+                more than 300 years.</p>
+            <br>
+            <p>Cape Town has so much beauty and wildlife, it is amazing how humans and animals have adapted in
+                coinciding with one another in the urban jungle we call home and this is one of the many reasons i
+                showcase my art based on the city i gre up in.</p>
+            <br>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Site footer -->
+
+    <div class="two-column-wrapper-footer">
+        <div class="container1">
+            <div class="left">
+                <ul class="social-icons">
+                    <li>
+                        <a class="facebook" href="https://www.facebook.com/dayyan.adams" target="_blank">
+                            <i class="fa fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="instagram" href="https://www.instagram.com/mini.cooper28/" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="twitter" href="https://twitter.com/Dayyan77420753" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="whatsapp" href="https://api.whatsapp.com/send?phone=27740582180" target="_blank">
+                            <i class="fa fa-whatsapp"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="container2">
+                    <ul>
+                        <li>
+                            <p class="copyright">&copy;2020 Petite Photography</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        }
+    </script>
+</body>
+
+</html>

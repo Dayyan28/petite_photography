@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="Mini Photographer"
+        content="Looking for a Petite Photographer, i make images last longer that what you can remember.">
+    <meta name="keywords" content="Exciting, Energized, Out of this world, Bubbly, talkative">
+    <meta name="author" content="Rukea Petersen">
+    <title>PP - About</title>
+
+    <!-- CSS Style Sheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mq.css">
+
+    <!-- Google Fonts -->
+    <link rel="reconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Prompt:wght@200&display=swap"
+        rel="stylesheet">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1331BBR2YD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1331BBR2YD');
+    </script>
+</head>
+
+<body>
+
+
+    <div>
+        <div>
+            <h1>About the artist</h1>
+            
+        <div class="about-nav">
+            <div class="about-nav">
+                <ul>
+                  <button onclick="location.href='index.html'" type="button">
+                    Home</button>
+                    <button onclick="location.href='creativeStudio.html'" type="button">
+                      Creative Studio</button>
+                  <button onclick="location.href='contact.html'" type="button">
+                    Contact</button>
+                </ul>
+    </div>
+
+    </div>
+
+
+
+    <div class="two-column-wrapper">
+        <div class="image-wrapper">
+            <img src="images/about/artist.jpg">
+        </div>
+        <div class="content-wrapper">
+            <p>Born and raised in Cape Town and always had a unique eye in life on digital aspects and how it has
+                changed the world we lived in today</p>
+            <br>
+
+            <p>With my asian heritage and unique professional background, I take a step back to observe and capture
+                all of the emotion and unique details of all walks of life.</p>
+            <br>
+
+            <p>I am most passionate about travelling the world and exploring what our planet has to offer and to
+                capture it through my eyes.</p>
+            <br>
+            <p>And yes i am 1.4 metre in height when you meet me but i am loud and bubbly. You might think how i
+                might be challenged when doing shoots as i am vertically challenged but my portfolio represents what
+                i am capable of
+                no matter the task at hand.</p>
+            <br>
+        </div>
+    </div>
+
+
+    <!-- Site footer -->
+
+    <div class="two-column-wrapper-footer">
+        <div class="container1">
+            <div class="left">
+                <ul class="social-icons">
+                    <li>
+                        <a class="facebook" href="https://www.facebook.com/dayyan.adams" target="_blank">
+                            <i class="fa fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="instagram" href="https://www.instagram.com/mini.cooper28/" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="twitter" href="https://twitter.com/Dayyan77420753" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="whatsapp" href="https://api.whatsapp.com/send?phone=27740582180" target="_blank">
+                            <i class="fa fa-whatsapp"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="container2">
+                    <ul>
+                        <li>
+                            <p class="copyright">&copy;2020 Petite Photography</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
+    }
+
+    function currentSlide(n) {
+      showSlides((slideIndex = n));
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+</body>
+
+</html>
